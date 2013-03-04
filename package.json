@@ -1,6 +1,6 @@
 {
   "name": "stream-disconnect",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "disconnect all listeners for a given stream without closing",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,9 @@
     "tape": "~0.2.2"
   },
   "testling": {
-    "files": ["test.js"],
+    "files": [
+      "test.js"
+    ],
     "browsers": {
       "ie": [
         10

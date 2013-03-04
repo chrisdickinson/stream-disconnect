@@ -1,0 +1,48 @@
+{
+  "name": "stream-disconnect",
+  "version": "0.0.0",
+  "description": "disconnect all listeners for a given stream without closing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/disconnect-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "disconnect"
+  ],
+  "devDependencies": {
+    "through": "~2.2.0",
+    "tape": "~0.2.2"
+  },
+  "testling": {
+    "files": ["test.js"],
+    "browsers": {
+      "ie": [
+        10
+      ],
+      "firefox": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "chrome": [
+        20,
+        21,
+        22,
+        23,
+        "canary"
+      ],
+      "safari": [
+        6
+      ]
+    }
+  },
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT"
+}

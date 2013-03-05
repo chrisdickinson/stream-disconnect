@@ -1,6 +1,6 @@
 {
   "name": "stream-disconnect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "disconnect all listeners for a given stream without closing",
   "main": "index.js",
   "scripts": {

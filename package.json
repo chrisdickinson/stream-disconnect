@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chrisdickinson/disconnect-stream.git"
+    "url": "git://github.com/chrisdickinson/stream-disconnect.git"
   },
   "keywords": [
     "stream",
